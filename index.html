@@ -5,47 +5,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - primary meta tags
-  -->
   <title>The StudyHub</title>
   <meta name="title" content="The StudyHub">
-  <meta name="description" content="This is a business agency html template made by codewithsadee">
-
-  <!-- 
-    - favicon
-  -->
+  <meta name="description" content="This is a business agency">
   <link rel="shortcut icon" href="./favicon.png">
-
-  <!-- 
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-
-  <!-- 
-    - custom css link
-  -->
   <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
-
 </head>
 
 <body>
 
+<div class="video-container">
+  <video id="background-video" autoplay muted loop>
+    <source src="https://res.cloudinary.com/dytflpnz1/video/upload/v1694163284/bti2yjsjko2t2ngkag2c.mov" type="video/mp4">
+  </video>
+</div>
+
   <!-- 
     - #HEADER
   -->
-
   <header class="header" data-header>
     <div class="container">
 
@@ -68,32 +48,25 @@
         </div>
 
         <ul class="navbar-list">
-
           <li>
             <a href="index.html" class="navbar-link">Home</a>
           </li>
-
           <li>
             <a href="./about.html" class="navbar-link">About</a>
           </li>
-
           <li>
-            <a href="#" class="navbar-link">Blog</a>
+            <a href="bit.ly/lampnews" class="navbar-link">Blog</a>
           </li>
-
           <li>
             <a href="contact.html" class="navbar-link">Contact</a>
           </li>
-
         </ul>
 
         <div class="wrapper">
-          <a href="mailto:thestudyhub.ingo@gmail.com" class="contact-link">thestudyhub.ingo@gmail.com</a>
-
+          <a href="mailto:thestudyhub.ingo@gmail.com" class="contact-link">thestudyhub.info@gmail.com</a>
         </div>
 
         <ul class="social-list">
-
           <li>
             <a href="#" class="social-link">
               <ion-icon name="logo-twitter"></ion-icon>
@@ -137,10 +110,6 @@
 
   <main>
     <article>
-      <!-- 
-        - #HERO
-      -->
-
       <section class="section hero has-bg-image" aria-label="home"
         style="background-image: url('./assets/images/hero-bg.jpg')">
         <div class="container">
@@ -150,7 +119,7 @@
               We're a company focused on creating learning, inspiration, and connection opportunities for today's youth.
             </p>
             <div class="btn-wrapper">
-              <a href="#" class="btn btn-primary">Explore Now</a>
+              <a href="#service" class="btn btn-primary">Explore Now</a>
 
               <a href="#" class="btn btn-outline">Contact Us</a>
             </div>
@@ -161,8 +130,7 @@
       <!-- 
         - #SERVICE
       -->
-
-      <section class="section service" aria-labelledby="service-label">
+      <section id="service" class="section service" aria-labelledby="service-label">
         <div class="container">
           <p class="section-subtitle" id="service-label">What We Do?</p>
           <h2 class="h2 section-title">
@@ -172,12 +140,11 @@
             <li>
               <div class="service-card">
                 <div class="card-icon">
-                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="game-controller-outline"></ion-icon>
                 </div>
-                <h3 class="h4 card-title">24/7 Support</h3>
+                <h3 class="h4 card-title">Gaming Station</h3>
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                  We provide 2 Gaming Stations for you to have fun.
                 </p>
                 <a href="#" class="btn-text">
                   <span class="span">Learn More</span>
@@ -189,12 +156,11 @@
             <li>
               <div class="service-card">
                 <div class="card-icon">
-                  <ion-icon name="shield-checkmark-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="laptop-outline"></ion-icon>
                 </div>
-                <h3 class="h4 card-title">Secure Payments</h3>
+                <h3 class="h4 card-title">Work Station</h3>
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                  We provide 3 Work Stations to work in peace.
                 </p>
                 <a href="#" class="btn-text">
                   <span class="span">Learn More</span>
@@ -206,12 +172,11 @@
             <li>
               <div class="service-card">
                 <div class="card-icon">
-                  <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="car-sport-outline"></ion-icon>
                 </div>
-                <h3 class="h4 card-title">Daily Updates</h3>
+                <h3 class="h4 card-title">Simulator</h3>
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                  We provide a professional driving simulator.
                 </p>
                 <a href="#" class="btn-text">
                   <span class="span">Learn More</span>
@@ -223,12 +188,11 @@
             <li>
               <div class="service-card">
                 <div class="card-icon">
-                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                  <ion-icon name="film-outline"></ion-icon>
                 </div>
-                <h3 class="h4 card-title">Market Research</h3>
+                <h3 class="h4 card-title">Cinema Room</h3>
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                  We have a fantastic Cinema room for the staff.
                 </p>
                 <a href="#" class="btn-text">
                   <span class="span">Learn More</span>
@@ -240,12 +204,9 @@
         </div>
       </section>
 
-      
-
       <!-- 
         - #FEATURE
       -->
-
       <section class="section feature" aria-labelledby="feature-label">
         <div class="container">
 
@@ -332,38 +293,31 @@
         </div>
       </section>
 
-
-
-
-
       <!-- 
         - #STATS
       -->
-
       <section class="stats" aria-label="our stats">
         <div class="container">
 
           <ul class="stats-card has-bg-image" style="background-image: url('./assets/images/stats-bg.jpg')">
-
             <li>
               <p class="card-text">
-                <span class="h1">7518</span>
+                <span class="h1">26</span>
 
-                <spna class="span">Completed Projects</spna>
+                <spna class="span">Users</spna>
+              </p>
+            </li>
+            <li>
+              <p class="card-text">
+                <span class="h1">24</span>
+
+                <spna class="span">Happy Users</spna>
               </p>
             </li>
 
             <li>
               <p class="card-text">
-                <span class="h1">3472</span>
-
-                <spna class="span">Happy Customers</spna>
-              </p>
-            </li>
-
-            <li>
-              <p class="card-text">
-                <span class="h1">2184</span>
+                <span class="h1">4</span>
 
                 <spna class="span">Expert Employees</spna>
               </p>
@@ -371,7 +325,7 @@
 
             <li>
               <p class="card-text">
-                <span class="h1">4523</span>
+                <span class="h1">12</span>
 
                 <spna class="span">Awards Won</spna>
               </p>
@@ -382,163 +336,23 @@
         </div>
       </section>
 
-
-
-
-
       <!-- 
         - #PROJECT
       -->
-
       <section class="section project" aria-labelledby="project-label">
         <div class="container">
-
-          <p class="section-subtitle" id="project-label">Case Studies</p>
-
-          <h2 class="h2 section-title">
-            Check out some of our awesome projects with creative ideas and great design.
-          </h2>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-1.jpg" width="560" height="350" loading="lazy"
-                    alt="Ligula tristique quis risus" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Ligula tristique quis risus</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Coding</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-2.jpg" width="560" height="350" loading="lazy"
-                    alt="Nullam id dolor elit id nibh" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Nullam id dolor elit id nibh</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-03-29">29 Mar 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Workspace</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="project-card">
-
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/blog-3.jpg" width="560" height="350" loading="lazy"
-                    alt="Ultricies fusce porta elit" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Ultricies fusce porta elit</a>
-                  </h3>
-
-                  <p class="card-text">
-                    Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras
-                    imperdiet nun eu dolor.
-                  </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-02-26">26 Feb 2022</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Meeting</span>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
+          <h2 class="h2 section-title"></h2>
         </div>
       </section>
-
-
-
-
 
       <!-- 
         - #CTA
       -->
-
       <section class="cta" aria-label="call to action">
         <div class="container">
 
           <h2 class="h2 section-title">
-            Join our community by using our services and grow your business.
+            Join our community using our services and have fun.
           </h2>
 
           <a href="#" class="btn btn-primary">Try it For Free</a>
@@ -548,10 +362,6 @@
 
     </article>
   </main>
-
-
-
-
 
   <!-- 
     - #FOOTER
@@ -579,17 +389,7 @@
           </li>
           <li>
             <a href="#" class="social-link">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
             </a>
           </li>
         </ul>
@@ -650,6 +450,23 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script>
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+if (!isMobile) {
+  setTimeout(function() {
+    var videoContainer = document.querySelector('.video-container');
+    var landingContainer = document.querySelector('.containerLanding');
+    videoContainer.style.display = 'none';
+    landingContainer.style.display = 'block';
+  }, 3700);
+} else {
+  var videoContainer = document.querySelector('.video-container');
+  var landingContainer = document.querySelector('.containerLanding');
+  videoContainer.style.display = 'none';
+  landingContainer.style.display = 'block';
+}
+  </script>
 
 </body>
 
