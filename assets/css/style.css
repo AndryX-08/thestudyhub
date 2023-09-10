@@ -620,7 +620,7 @@ body.nav-active { overflow: hidden; }
 }
 
 .feature-card .card-icon {
-  background-color: var(--lavender-web);
+  background-color: #76d8d864;
   font-size: 1.4rem;
   padding: 4px;
   border-radius: var(--radius-circle);
